@@ -1,0 +1,86 @@
+.bootstrap-iso .formden_header h2,
+.bootstrap-iso .formden_header p,
+.bootstrap-iso form {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.bootstrap-iso form button,
+.bootstrap-iso form button:hover {
+  color: white !important;
+}
+
+.asteriskField {
+  color: red;
+}
+
+form#chechinForm .form-control {
+  box-shadow: none !important;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  background: transparent !important;
+  color: white !important;
+  font-size: 16px;
+  width: 100%;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.as-label,
+label,
+#checkin_date::placeholder {
+  color: white;
+}
+
+.bootstrap-iso label {
+  color: black;
+}
+
+input.age {
+  margin-left: 3px;
+}
+
+.btn-submit {
+  background-color: #5e5ea2;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.fa-info-circle {
+  color: white;
+  margin-left: 9px;
+}
+
+.input-group-text {
+  background-color: #eff7ff;
+}
+
+[class*="bg-"] .navbar-toggler span {
+  background-color: #fff0;
+}
+
+a {
+  cursor: pointer !important;
+}
+
+.list-of-discount {
+  margin-bottom: 3rem;
+  max-width: 40rem;
+}
+
+.list-of-discount .list-group-item {
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+  border: 1px solid rgb(144, 213, 178);
+  border-right: 0;
+  border-left: 0;
+  padding: 0.1rem 0.2rem;
+}
+
+@media only screen and (max-width: 550px) {
+  .text-center {
+    text-align: left !important;
+  }
+}
